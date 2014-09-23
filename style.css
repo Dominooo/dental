@@ -33,7 +33,8 @@ main {
   float: right;
   display: flex;
   justify-content: space-between;
-  margin-right:150px;
+  flex-direction: column;
+  margin-right:60px;
   margin-top: 20px;
   width: 50%;
 }
@@ -71,6 +72,10 @@ main {
 
 @media (min-width: 960px){
   .container {
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .nav {
     flex-direction: row;
     justify-content: space-around;
   }
